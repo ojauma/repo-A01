@@ -1,1 +1,17 @@
 @import url("reset.css");
+
+h1, h2, h3{
+    margin: 1rem;
+}
+
+h2{
+    border-bottom: 1px solid black;
+}
+
+p{
+    margin: 2rem;
+}
+
+ul, ol{
+    margin: 2rem;
+}
