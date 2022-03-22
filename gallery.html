@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
-    <a href="img/1559679036_977776_1559679371_noticia_normal.jpg">
-        <img src="img/1559679036_977776_1559679371_noticia_normal.jpg" alt="">
-    </a>
-    <a href="img/bing-cherries-ripe-red-fruit.webp">
-        <img src="img/bing-cherries-ripe-red-fruit.webp" alt="">
-    </a>
+    <button id="first_image"><img src="img/pexels-photo-459301.jpeg" alt=""></button>
+    <img src="img/pexels-photo-459301.jpeg" alt="" class="hidden_image ">
+    <script>
+        var first_image_button = document.querySelector('.first_image');
+        var hidden_image = document.querySelector('.hidden_image');
+
+        first_image_button.addEventListener("click", event => {
+            hidden_image.classList.add("show");
+        })
+    </script>
+
+
+    <a href="img/1559679036_977776_1559679371_noticia_normal.jpg"><img src="img/1559679036_977776_1559679371_noticia_normal.jpg" alt=""></a>
+    <a href="img/bing-cherries-ripe-red-fruit.webp"><img src="img/bing-cherries-ripe-red-fruit.webp" alt=""></a>
     <a href="img/fotos-gratis-de-stock-1.jpg"><img src="img/fotos-gratis-de-stock-1.jpg" alt=""></a>
     <a href="img/ghost_4b27d58d_800x800.jpg"><img src="img/ghost_4b27d58d_800x800.jpg" alt=""></a>
     <a href="img/Hummingbird.jpg"><img src="img/Hummingbird.jpg" alt=""></a>

@@ -10,3 +10,15 @@ body{
 a{
     width: 20vw;
 }
+
+button{
+    width: 200px;
+}
+
+.hidden_image{
+    display: none;
+}
+
+.show{
+    display: block;
+}

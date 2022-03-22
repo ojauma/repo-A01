@@ -1,5 +1,15 @@
 @import url("reset.css");
 
+/*
+.recepta{
+    background-image: url("../img/tablecloth.jpg");
+    height: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: rgba(55, 90, 204, 0.5);
+}
+*/
+
 h1, h2, h3{
     margin: 1rem;
 }
