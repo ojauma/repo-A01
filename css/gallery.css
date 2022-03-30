@@ -22,3 +22,12 @@ button{
 .show{
     display: block;
 }
+
+#pic1{
+    visibility: hidden;
+}
+
+#pic1:target{
+/*    visibility: visible;
+*/
+}
